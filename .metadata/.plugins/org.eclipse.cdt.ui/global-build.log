@@ -1,0 +1,44 @@
+Info: Nothing to build for CLASE 1
+22:01:00 **** Incremental Build of configuration Debug for project CLASE 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CLASE 1.o" "..\\src\\CLASE 1.c" 
+gcc -o "CLASE 1.exe" "src\\CLASE 1.o" 
+22:01:45 **** Incremental Build of configuration Debug for project CLASE 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CLASE 1.o" "..\\src\\CLASE 1.c" 
+gcc -o "CLASE 1.exe" "src\\CLASE 1.o" 
+Info: Nothing to build for CLASE 1
+22:02:08 **** Incremental Build of configuration Debug for project CLASE 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CLASE 1.o" "..\\src\\CLASE 1.c" 
+gcc -o "CLASE 1.exe" "src\\CLASE 1.o" 
+Info: Nothing to build for CLASE 1
+22:02:43 **** Incremental Build of configuration Debug for project CLASE 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CLASE 1.o" "..\\src\\CLASE 1.c" 
+gcc -o "CLASE 1.exe" "src\\CLASE 1.o" 
+Info: Nothing to build for CLASE 1
+Info: Nothing to build for CLASE 1
+18:45:12 **** Incremental Build of configuration Debug for project CLASE 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CLASE 1.o" "..\\src\\CLASE 1.c" 
+..\src\CLASE 1.c: In function 'main':
+..\src\CLASE 1.c:17:9: error: 'stdount' undeclared (first use in this function); did you mean 'stdout'?
+   17 |  setbuf(stdount, NULL); // para que aparezca por consola
+      |         ^~~~~~~
+      |         stdout
+..\src\CLASE 1.c:17:9: note: each undeclared identifier is reported only once for each function it appears in
+18:45:52 **** Incremental Build of configuration Debug for project CLASE 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CLASE 1.o" "..\\src\\CLASE 1.c" 
+..\src\CLASE 1.c: In function 'main':
+..\src\CLASE 1.c:17:9: error: 'stdount' undeclared (first use in this function); did you mean 'stdout'?
+   17 |  setbuf(stdount, NULL); // para que aparezca por consola
+      |         ^~~~~~~
+      |         stdout
+..\src\CLASE 1.c:17:9: note: each undeclared identifier is reported only once for each function it appears in
+18:46:02 **** Incremental Build of configuration Debug for project CLASE 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CLASE 1.o" "..\\src\\CLASE 1.c" 
+gcc -o "CLASE 1.exe" "src\\CLASE 1.o" 
+Info: Nothing to build for CLASE 1
