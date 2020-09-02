@@ -2,13 +2,22 @@
 #include <stdlib.h>
 
 
+/* Ejercicio de repaso
+1)De 5  personas que ingresan al hospital se deben tomar y
+validar los siguientes datos.
+la inicial , temperatura, sexo y edad.
+a)informar la cantidad de personas de cada sexo.
+b)la edad promedio en total
+c)la mujer con más temperatura(si la hay)
+pedir datos y mostrar los resultados*/
+
 int main()
 {
 
 
     int personas=5;
-    char nombre[20];
-    char nombreMasTemperatura[20];
+    char nombre;
+    char nombreMasTemperatura;
     float temperatura;
     char sexo;
     int edad;
@@ -24,8 +33,8 @@ int main()
     {
 
         printf("Ingrese la inicial de su nombre: ");
-
-        scanf("%s", nombre);
+        fflush(stdin);
+        scanf("%c", &nombre);
 
         printf("\nEdad: ");
         scanf("%d", &edad);
@@ -41,7 +50,7 @@ int main()
         {
             tempMaxima=temperatura;
             edadMaxima=edad;
-            nombreMasTemperatura[20]=nombre[20];
+            nombreMasTemperatura=nombre;
         }
 
 
@@ -67,7 +76,7 @@ int main()
 
     printf("\na)Informar la cantidad de personas de cada sexo\n Cantidad de Hombres: %d\n Cantidad de Mujeres: %d", contadorHombres, contardorMujeres);
     printf("\n\nb)La edad promedio en total\n Promedio: %.2f", promedio);
-    printf("\n\nc)La mujer con mas temperatura\n %.2f Grados\n Edad: %d\n Inicial del nombre: %c", tempMaxima, edadMaxima, nombreMasTemperatura[20]);
+    printf("\n\nc)La mujer con mas temperatura\n %.2f Grados\n Edad: %d\n Inicial del nombre: %c", tempMaxima, edadMaxima, nombreMasTemperatura);
 
 
     return 0;
