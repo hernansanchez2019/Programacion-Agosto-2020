@@ -28,15 +28,15 @@ int main(void)
 
     num3= numero(num3);
 
-    printf("Ingresar un numero para calcular: ");
+    printf("\nIngresar un numero para calcular: ");
     scanf("%d", &num1);
 
-    printf("Ingresar un numero para calcular: ");
+    printf("\nIngresar un numero para calcular: ");
     scanf("%d", &num2);
 
     resultado= suma(num1,num2);
 
-    printf("La suma es: %d ", resultado);
+    printf("\nLa suma es: %d ", resultado);
 
     resultado= resta(num1,num2);
 
@@ -50,7 +50,7 @@ int main(void)
 
     printf("\nLa division es: %.2f ", resultadoDivision);
 
-    printf("\El numero ingresado por el usuario es %d", num3);
+    printf("\nEl numero ingresado por el usuario es %d", num3);
 
 
 }
