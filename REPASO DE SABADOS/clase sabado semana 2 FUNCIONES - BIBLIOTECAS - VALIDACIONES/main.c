@@ -81,15 +81,5 @@ int main(void)
     printf("\nB -el promedio del total  de cantidades de talle 'M' = %.2f", promedioTalleM);
 
 
-
-
-
-
-
-    /*Una función:
-    Realizar una función que reciba el precio float y el porcentaje de descuento como entero
-    ,retornar el precio con el descuento al main
-
-    */
     return 0;
 }
