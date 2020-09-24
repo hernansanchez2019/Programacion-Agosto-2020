@@ -24,11 +24,7 @@ int main(void)
 
     // mostramos datos
 
-
     mostrarEmpleados(edades, sueldo, EMPLEADOS);
-    ordenarEdades(edades, EMPLEADOS);
-
-
 
     // mostramos promedio
 

@@ -44,7 +44,6 @@ void mostrarEmpleados(int edad[], float sueldo[], int empleados)
 
     printf("\n\t*** Legajos Cargados ***\n");
 
-
     for(i=0 ; i <empleados ; i++)
     {
 
@@ -79,25 +78,3 @@ void promedioSueldos(float sueldo[], int empleados)
     printf("\nPromedio de sueldos: %f\n", promedio);
 
 }
-
-void ordenarEdades(int edad[], int empleados)
-{
-    int i;
-    int j;
-    int aux;
-
-    for(i=0; i < empleados - 1 ; i++)
-    {
-        for(j= i+1 ; j < empleados ; j++)
-        {
-            if(edad[i] > edad[j])
-            {
-                aux= edad[i];
-                edad[i]= edad[j];
-                edad[j]= aux;
-            }
-        }
-    }
-
-}
-

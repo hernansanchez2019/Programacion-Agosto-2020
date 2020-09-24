@@ -1,8 +1,13 @@
 # depslib dependency file v1.0
-1600387199 source:f:\clases utn\programacion - laboratorio\programacion-agosto-2020\clase 7 codeblocks\main.c
+1600901622 source:f:\clases utn\programacion - laboratorio\programacion-agosto-2020\clase 7 codeblocks\main.c
 	<stdio.h>
 	<stdlib.h>
 	"FUNCIONES.h"
 
-1600384159 f:\clases utn\programacion - laboratorio\programacion-agosto-2020\clase 7 codeblocks\funciones.h
+1600901622 f:\clases utn\programacion - laboratorio\programacion-agosto-2020\clase 7 codeblocks\funciones.h
+
+1600902140 source:f:\clases utn\programacion - laboratorio\programacion-agosto-2020\clase 7 codeblocks\funciones.c
+	<stdlib.h>
+	<stdio.h>
+	"FUNCIONES.h"
 
